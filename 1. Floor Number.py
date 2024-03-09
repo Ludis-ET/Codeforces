@@ -6,10 +6,8 @@ while test > 0:
     p, x = map(int, input().split())
     
     if p > 2:
-        counter = 0
-        while not (((counter * x) + 3) <= p <= ((floor * x) + 2)):
+        while not ((((floor - 1) * x) + 3) <= p <= ((floor * x) + 2)): 
             floor += 1
-            counter += 1
         print(floor + 1)
     else:
         print(floor)
