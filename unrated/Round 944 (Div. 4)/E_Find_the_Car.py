@@ -20,6 +20,7 @@ for _ in range(t):
     n, k, q = map(int, input().split())
     points = list(map(int, input().split()))
     times = list(map(int, input().split()))
+    print(points, times)
 
     for _ in range(q):
         query = int(input())
