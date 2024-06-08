@@ -14,12 +14,7 @@ def solve():
     n = len(s)
     if n <= 10:
         return s
-    
-    ans = ""
-    ans += s[0]
-    ans += str(n - 2)
-    ans += s[-1]
-    return ans
+    return str(s[0]) + str(n - 2) + str(s[-1])
 
     
 
